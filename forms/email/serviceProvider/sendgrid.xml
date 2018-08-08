@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="email.serviceProvider.sendgrid:">
+    <tab id="default">
+        <fieldset id="default">
+			<field name="server"  control="textinput" required="false" default="smtp.sendgrid.net" />
+			<field name="port"    control="select"    required="false" default="587" values="25,587" />
+            <field name="sendgrid_api_key" control="textinput" required="false" />
+        </fieldset>
+    </tab>
+</form>

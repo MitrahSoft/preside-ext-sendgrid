@@ -1,0 +1,23 @@
+{
+    "name":"PresideCMS Extension: SendGrid",
+    "type":"preside-extensions",
+    "version":"1.0.0",
+    "location":"https://github.com/MitrahSoft/preside-ext-sendgrid",
+    "author":"MitrahSoft",
+    "directory":"application/extensions",
+    "homepage":"https://github.com/MitrahSoft/preside-ext-sendgrid",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/MitrahSoft/preside-ext-sendgrid"
+    },
+    "slug":"preside-ext-sendGrid",
+    "projectURL":"",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".travis.yml",
+        ".twgit_features_subject",
+        "*.sh",
+        "docs"
+    ]
+}
