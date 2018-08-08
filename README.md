@@ -21,6 +21,5 @@ box install preside-ext-sendgrid
 If you are not already on Preside 10.9 or above, you'll need to enable the extension by opening up the Preside developer console and entering:
 
 ```
-extension enable preside-ext-mailjet
-reload all
+
 ```
