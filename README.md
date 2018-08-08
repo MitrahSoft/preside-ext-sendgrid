@@ -6,7 +6,6 @@ This extension provides integration for [SendGrid](https://www.mailjet.com/) wit
 
 Using this extension you can your mail's via SendGrid
 
-See the [wiki](https://github.com/pixl8/preside-ext-mailjet/wiki) for further documentation.
 
 ## Installation
 
