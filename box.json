@@ -10,7 +10,7 @@
         "type":"git",
         "URL":"https://github.com/MitrahSoft/preside-ext-sendgrid"
     },
-    "slug":"preside-ext-sendGrid",
+    "slug":"preside-ext-sendgrid",
     "projectURL":"",
     "ignore":[
         ".git/*",
