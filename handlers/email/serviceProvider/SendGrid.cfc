@@ -8,8 +8,12 @@ component {
 	private boolean function send( struct sendArgs={}, struct settings={} ) {
 		var template = emailTemplateService.getTemplate( sendArgs.template ?: "" );
 
-	
-
+		sendArgs.messageId = sendArgs.messageId ?: "";
+		sendArgs.params = sendArgs.params ?: {};
+		sendArgs.params[ "xHeader" ] = {
+			  name  = "x-smtpapi"
+			, value = ' {"unique_args":{"MessageID-SG":"#sendArgs.messageId#"}}'
+		};
 		settings.username = "apikey";
 		settings.password = settings.sendgrid_api_key ?: "";
 

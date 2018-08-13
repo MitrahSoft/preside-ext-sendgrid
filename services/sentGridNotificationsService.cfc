@@ -25,7 +25,7 @@ component {
 	public void function processEvent( required struct event ){
 		var loggingService = getSendGridEmailLoggingService();
 		var eventType      = arguments.event.event    ?: "";
-		var messageId      = arguments.event.sg_message_id ?: "";
+		var messageId      = arguments.event["MessageID-SG"] ?: "";
 
 		if ( !messageId.len() ) {
 			return;
