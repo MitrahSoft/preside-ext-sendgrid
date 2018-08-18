@@ -2,7 +2,7 @@
     "name":"PresideCMS Extension: SendGrid",
     "type":"preside-extensions",
     "version":"1.0.0",
-    "location":"https://github.com/MitrahSoft/preside-ext-sendgrid/preside-ext-sendgrid.zip",
+    "location":"https://github.com/MitrahSoft/preside-ext-sendgrid/raw/master/preside-ext-sendgrid.zip",
     "author":"MitrahSoft",
     "directory":"application/extensions",
     "homepage":"https://github.com/MitrahSoft/preside-ext-sendgrid",
